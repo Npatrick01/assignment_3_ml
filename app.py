@@ -16,7 +16,7 @@ html_temp = """
 </div>
 """
 st.markdown(html_temp, unsafe_allow_html=True)
-CountryName = st.text_input("CountryName","Type Here",key='0')
+CountryName = st.text_input("CountryName")
 StringencyLegacyIndexForDisplay = st.text_input("StringencyLegacyIndexForDisplay",)
 StringencyIndexForDisplay = st.text_input("StringencyIndexForDisplay")
 ContainmentHealthIndexForDisplay = st.text_input("ContainmentHealthIndexForDisplay")
